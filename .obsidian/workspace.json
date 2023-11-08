@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "42d16b6128df1c2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "beee5254d7ed40b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab3fb3b7309508a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "91037e2c3bb72e25",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a395c2ef1cb0b67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bfad444056fc1bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9132797c4c588225",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0df3e0b4b6686581",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1df38336c9603215",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b9a542209c2e1b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85b40c212bcf1195",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "b187cde88c822490",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b780ffafb5f14c99",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1cc7f0657b0dd4d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md"
+              }
+            }
+          },
+          {
+            "id": "40f67ae0c783434a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "40f67ae0c783434a",
+  "lastOpenFiles": [
+    "testad.md",
+    "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+    "2023-11-08.md",
+    "Unbenannt.canvas",
+    "99 - Images/Pasted image 20231108092514.png",
+    "01 - Network Scan.md",
+    "02 - Hosts/10.0.68.110 - TBD.md",
+    "99 - Images/Pasted image 20231108091949.png",
+    "99 - Images/Pasted image 20231108091729.png",
+    "02 - Hosts/10.0.68.108 - Apache default page.md",
+    "99 - Images/Pasted image 20231108092237.png",
+    "02 - Hosts/10.0.68.107 - Nothing here.md",
+    "99 - Images/Pasted image 20231108092204.png",
+    "02 - Hosts/10.0.68.106 - Auctions.md",
+    "99 - Images/Pasted image 20231108092122.png",
+    "02 - Hosts/10.0.68.105 - Green dragon.md",
+    "02 - Hosts/10.0.68.102 - Nextcloud.md",
+    "99 - Images/Pasted image 20231108091849.png",
+    "02 - Hosts/10.0.68.101 - Blog page.md",
+    "02 - Hosts/10.0.68.100 - Magneto Error Page.md",
+    "99 - Images/Pasted image 20231108091617.png",
+    "99 - Images",
+    "02 - Hosts/10.0.68.54 - DWA.md",
+    "02 - Hosts"
+  ]
+}
