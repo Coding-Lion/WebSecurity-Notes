@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "beee5254d7ed40b6",
+        "id": "d73f8611d6ccb8ca",
         "type": "tabs",
         "children": [
           {
-            "id": "ab3fb3b7309508a9",
+            "id": "662b9df4c29739ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md",
-                "mode": "source",
-                "source": false
+                "file": "02 - Hosts/10.0.68.108 - Apache default page.md",
+                "staged": true
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "02 - Hosts/10.0.68.122 - Drupal Blog.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,9 +131,25 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "524cc69c27dbb517",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "16934a0353173252",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -155,28 +166,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "40f67ae0c783434a",
+  "active": "662b9df4c29739ca",
   "lastOpenFiles": [
-    "testad.md",
-    "02 - Hosts/10.0.68.122 - Drupal Blog.md",
-    "2023-11-08.md",
-    "Unbenannt.canvas",
-    "99 - Images/Pasted image 20231108092514.png",
-    "01 - Network Scan.md",
-    "02 - Hosts/10.0.68.110 - TBD.md",
-    "99 - Images/Pasted image 20231108091949.png",
-    "99 - Images/Pasted image 20231108091729.png",
-    "02 - Hosts/10.0.68.108 - Apache default page.md",
-    "99 - Images/Pasted image 20231108092237.png",
-    "02 - Hosts/10.0.68.107 - Nothing here.md",
-    "99 - Images/Pasted image 20231108092204.png",
     "02 - Hosts/10.0.68.106 - Auctions.md",
-    "99 - Images/Pasted image 20231108092122.png",
+    "01 - Network Scan.md",
+    "02 - Hosts/10.0.68.107 - Nothing here.md",
+    "02 - Hosts/10.0.68.108 - Apache default page.md",
+    "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+    "02 - Hosts/10.0.68.110 - TBD.md",
     "02 - Hosts/10.0.68.105 - Green dragon.md",
+    "Unbenannt.canvas",
+    "02 - Hosts/10.0.68.100 - Magneto Error Page.md",
+    "99 - Images/Pasted image 20231108091729.png",
+    "LICENSE",
+    "testad.md",
+    "2023-11-08.md",
+    "99 - Images/Pasted image 20231108092514.png",
+    "99 - Images/Pasted image 20231108091949.png",
+    "99 - Images/Pasted image 20231108092237.png",
+    "99 - Images/Pasted image 20231108092204.png",
+    "99 - Images/Pasted image 20231108092122.png",
     "02 - Hosts/10.0.68.102 - Nextcloud.md",
     "99 - Images/Pasted image 20231108091849.png",
     "02 - Hosts/10.0.68.101 - Blog page.md",
-    "02 - Hosts/10.0.68.100 - Magneto Error Page.md",
     "99 - Images/Pasted image 20231108091617.png",
     "99 - Images",
     "02 - Hosts/10.0.68.54 - DWA.md",
