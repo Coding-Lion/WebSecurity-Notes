@@ -11,28 +11,14 @@
             "id": "662b9df4c29739ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "01 - Network Scan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "844c1d7fa5d435a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Network Scan.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Network Scan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Network Scan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01 - Network Scan.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,7 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 694.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,27 +166,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "844c1d7fa5d435a6",
+  "active": "662b9df4c29739ca",
   "lastOpenFiles": [
-    "02 - Hosts/10.0.68.100 - Magneto Error Page.md",
-    "01 - Network Scan.md",
-    "03 - Gobuster/10.0.68.105.md",
-    "02 - Hosts/10.0.68.107 - Nothing here.md",
     "03 - Gobuster/10.0.68.108.md",
-    "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+    "03 - Gobuster/10.0.68.105.md",
     "01_1 Network Scan Extended.md",
-    "Utitled.md",
-    "03 - Gobuster",
-    "Untitled.canvas",
-    "02 - Hosts/10.0.68.106 - Auctions.md",
+    "01 - Network Scan.md",
     "02 - Hosts/10.0.68.108 - Apache default page.md",
-    "02 - Hosts/10.0.68.105 - Green dragon.md",
-    "02 - Hosts/10.0.68.54 - DWA.md",
     "02 - Hosts/10.0.68.110 - DNS.md",
+    "99 - Images/Pasted image 20231108091729.png",
+    "99 - Images/Pasted image 20231108091617.png",
     "02 - Hosts/10.0.68.102 - Nextcloud.md",
     "02 - Hosts/10.0.68.101 - Blog page.md",
+    "02 - Hosts/10.0.68.100 - Magneto Error Page.md",
+    "02 - Hosts/10.0.68.54 - DWA.md",
+    "Utitled.md",
+    "03 - Gobuster",
+    "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+    "Untitled.canvas",
+    "02 - Hosts/10.0.68.106 - Auctions.md",
+    "02 - Hosts/10.0.68.105 - Green dragon.md",
+    "02 - Hosts/10.0.68.107 - Nothing here.md",
     "Unbenannt.canvas",
-    "99 - Images/Pasted image 20231108091729.png",
     "LICENSE",
     "testad.md",
     "2023-11-08.md",
@@ -214,7 +197,6 @@
     "99 - Images/Pasted image 20231108092204.png",
     "99 - Images/Pasted image 20231108092122.png",
     "99 - Images/Pasted image 20231108091849.png",
-    "99 - Images/Pasted image 20231108091617.png",
     "99 - Images",
     "02 - Hosts"
   ]
