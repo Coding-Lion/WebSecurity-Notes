@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
+                "file": "98 - Anhänge/Passwordlist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
+                "file": "98 - Anhänge/Passwordlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
+                "file": "98 - Anhänge/Passwordlist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Hosts/10.0.68.105 - Green dragon.md"
+                "file": "98 - Anhänge/Passwordlist.md"
               }
             }
           },
@@ -173,10 +173,13 @@
   },
   "active": "662b9df4c29739ca",
   "lastOpenFiles": [
+    "98 - Anhänge/Gobuster dirb.md",
+    "98 - Anhänge/Passwordlist.md",
+    "02 - Hosts/10.0.68.105 - Green dragon.md",
+    "98 - Anhänge",
     "Pasted image 20231210171600.png",
     "Pasted image 20231210171514.png",
     "Pasted image 20231210165948.png",
-    "02 - Hosts/10.0.68.105 - Green dragon.md",
     "Untitled.canvas",
     "2023-12-10.md",
     "conflict-files-obsidian-git.md",
@@ -206,7 +209,6 @@
     "99 - Images/Pasted image 20231108092237.png",
     "99 - Images/Pasted image 20231108092204.png",
     "99 - Images/Pasted image 20231108092122.png",
-    "99 - Images/Pasted image 20231108091849.png",
     "99 - Images",
     "02 - Hosts"
   ]
