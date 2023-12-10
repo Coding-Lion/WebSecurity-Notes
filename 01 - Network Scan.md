@@ -1,3 +1,5 @@
+
+
 Starting Nmap 7.94 ( https://nmap.org ) at 2023-11-08 03:01 EST
 Nmap scan report for 10.0.68.1
 Host is up (0.061s latency).
