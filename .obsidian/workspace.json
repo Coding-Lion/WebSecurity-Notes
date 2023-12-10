@@ -18,8 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d274ba5bc839ce2",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "98 - Anhänge/Passwordlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "98 - Anhänge/Passwordlist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "98 - Anhänge/Passwordlist.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,10 +179,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "662b9df4c29739ca",
+  "active": "9d274ba5bc839ce2",
   "lastOpenFiles": [
-    "98 - Anhänge/Gobuster dirb.md",
+    "conflict-files-obsidian-git.md",
     "98 - Anhänge/Passwordlist.md",
+    "98 - Anhänge/Gobuster dirb.md",
     "02 - Hosts/10.0.68.105 - Green dragon.md",
     "98 - Anhänge",
     "Pasted image 20231210171600.png",
@@ -182,7 +191,6 @@
     "Pasted image 20231210165948.png",
     "Untitled.canvas",
     "2023-12-10.md",
-    "conflict-files-obsidian-git.md",
     "03 - Gobuster/10.0.68.108.md",
     "03 - Gobuster/10.0.68.105.md",
     "01_1 Network Scan Extended.md",
