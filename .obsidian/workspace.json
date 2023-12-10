@@ -11,10 +11,11 @@
             "id": "662b9df4c29739ca",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "01_1 Network Scan Extended.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01_1 Network Scan Extended.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01_1 Network Scan Extended.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01_1 Network Scan Extended.md"
+              }
             }
           },
           {
@@ -168,12 +173,12 @@
   },
   "active": "662b9df4c29739ca",
   "lastOpenFiles": [
-    "01_1 Network Scan Extended.md",
     "03 - Gobuster/10.0.68.108.md",
+    "03 - Gobuster/10.0.68.105.md",
+    "01_1 Network Scan Extended.md",
     "01 - Network Scan.md",
     "02 - Hosts/10.0.68.110 - DNS.md",
     "02 - Hosts/10.0.68.100 - Magneto Error Page.md",
-    "03 - Gobuster/10.0.68.105.md",
     "02 - Hosts/10.0.68.107 - Nothing here.md",
     "02 - Hosts/10.0.68.122 - Drupal Blog.md",
     "Utitled.md",
