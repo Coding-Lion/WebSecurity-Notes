@@ -1,4 +1,6 @@
 
+# Auenland
+
 ```
 
 nmap -sV -sC -oA auenland 10.0.68.0-255 --open --min-rate=300 
@@ -334,4 +336,210 @@ Post-scan script results:
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 256 IP addresses (256 hosts up) scanned in 1906.88 seconds
 
+```
+
+# Bree
+
+
+# Bruchtal
+```
+nmap -sV -sC -oA bruchtal 10.0.88.0-255 --open --min-rate=300
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2023-12-10 10:26 EST
+Nmap scan report for 10.0.88.1
+Host is up (0.032s latency).
+Not shown: 997 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE   VERSION
+22/tcp  open  ssh       OpenSSH 8.9 (protocol 2.0)
+| ssh-hostkey: 
+|   256 11:20:e9:8c:e3:f0:d6:15:e0:c0:79:58:1b:da:d4:8f (ECDSA)
+|_  256 10:12:d3:46:d5:bc:82:ff:5c:6c:38:7c:15:66:de:0e (ED25519)
+80/tcp  open  http      OPNsense
+|_http-server-header: OPNsense
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 301 Moved Permanently
+|     Location: https:///nice%20ports%2C/Trinity.txt.bak
+|     Content-Length: 0
+|     Connection: close
+|     Date: Sun, 10 Dec 2023 15:27:14 GMT
+|     Server: OPNsense
+|   GenericLines: 
+|     HTTP/1.0 400 Bad Request
+|     Content-Type: text/html
+|     Content-Length: 345
+|     Connection: close
+|     Date: Sun, 10 Dec 2023 15:27:15 GMT
+|     Server: OPNsense
+|     <?xml version="1.0" encoding="iso-8859-1"?>
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <head>
+|     <title>400 Bad Request</title>
+|     </head>
+|     <body>
+|     <h1>400 Bad Request</h1>
+|     </body>
+|     </html>
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 301 Moved Permanently
+|     Location: https:///
+|     Content-Length: 0
+|     Connection: close
+|     Date: Sun, 10 Dec 2023 15:27:09 GMT
+|     Server: OPNsense
+|   RTSPRequest: 
+|     HTTP/1.0 400 Bad Request
+|     Content-Type: text/html
+|     Content-Length: 345
+|     Connection: close
+|     Date: Sun, 10 Dec 2023 15:27:09 GMT
+|     Server: OPNsense
+|     <?xml version="1.0" encoding="iso-8859-1"?>
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <head>
+|     <title>400 Bad Request</title>
+|     </head>
+|     <body>
+|     <h1>400 Bad Request</h1>
+|     </body>
+|_    </html>
+|_http-title: Did not follow redirect to https://10.0.88.1/
+443/tcp open  ssl/https OPNsense
+|_http-title: Login | OPNsense
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: OPNsense
+| ssl-cert: Subject: organizationName=OPNsense/stateOrProvinceName=Zuid-Holland/countryName=NL
+| Not valid before: 2019-12-29T15:34:42
+|_Not valid after:  2020-12-28T15:34:42
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Set-Cookie: PHPSESSID=ebf8b275f3427433656995eed81ad958; path=/; secure; HttpOnly
+|     Set-Cookie: PHPSESSID=ebf8b275f3427433656995eed81ad958; path=/; secure; HttpOnly
+|     Expires: Thu, 19 Nov 1981 08:52:00 GMT
+|     Cache-Control: no-store, no-cache, must-revalidate
+|     Pragma: no-cache
+|     Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' 'unsafe-eval';
+|     X-Frame-Options: SAMEORIGIN
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 1; mode=block
+|     Referrer-Policy: same-origin
+|     Content-type: text/html; charset=UTF-8
+|     Strict-Transport-Security: max-age=31536000
+|     Content-Length: 1509
+|     Connection: close
+|     Date: Sun, 10 Dec 2023 15:27:15 GMT
+|     Server: OPNsense
+|     <!doctype html>
+|     <html lang="en" class="no-js">
+|     <head>
+|     <meta charset="UTF-8" />
+|     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+|     <meta nam
+|   HTTPOptions: 
+|     HTTP/1.0 403 Forbidden
+|     Set-Cookie: PHPSESSID=b9779f3bea6de3e9fb7b5a2512ff82a7; path=/; secure; HttpOnly
+|     Set-Cookie: PHPSESSID=b9779f3bea6de3e9fb7b5a2512ff82a7; path=/; secure; HttpOnly
+|     Expires: Thu, 19 Nov 1981 08:52:00 GMT
+|     Cache-Control: no-store, no-cache, must-revalidate
+|     Pragma: no-cache
+|     Content-type: text/html; charset=UTF-8
+|     Strict-Transport-Security: max-age=31536000
+|     Content-Length: 563
+|     Connection: close
+|     Date: Sun, 10 Dec 2023 15:27:20 GMT
+|     Server: OPNsense
+|     <html><head><title>CSRF check failed</title>
+|     <script>
+|     document ).ready(function() {
+|     $.ajaxSetup({
+|     'beforeSend': function(xhr) {
+|     xhr.setRequestHeader("X-CSRFToken", "S0ErZlYyNkcwMmp5SVNmOWRUcHl4Zz09" );
+|     </script>
+|     </head>
+|_    <body>
+|_http-trane-info: Problem with XML parsing of /evox/about
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.94SVN%I=7%D=12/10%Time=6575D8C9%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,94,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLocation:\x2
+SF:0https:///\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20
+SF:Sun,\x2010\x20Dec\x202023\x2015:27:09\x20GMT\r\nServer:\x20OPNsense\r\n
+SF:\r\n")%r(HTTPOptions,94,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nLo
+SF:cation:\x20https:///\r\nContent-Length:\x200\r\nConnection:\x20close\r\
+SF:nDate:\x20Sun,\x2010\x20Dec\x202023\x2015:27:09\x20GMT\r\nServer:\x20OP
+SF:Nsense\r\n\r\n")%r(RTSPRequest,1ED,"HTTP/1\.0\x20400\x20Bad\x20Request\
+SF:r\nContent-Type:\x20text/html\r\nContent-Length:\x20345\r\nConnection:\
+SF:x20close\r\nDate:\x20Sun,\x2010\x20Dec\x202023\x2015:27:09\x20GMT\r\nSe
+SF:rver:\x20OPNsense\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-8
+SF:859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\
+SF:.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"http://
+SF:www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=
+SF:\"http://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n
+SF:\x20<head>\n\x20\x20<title>400\x20Bad\x20Request</title>\n\x20</head>\n
+SF:\x20<body>\n\x20\x20<h1>400\x20Bad\x20Request</h1>\n\x20</body>\n</html
+SF:>\n")%r(FourOhFourRequest,B3,"HTTP/1\.0\x20301\x20Moved\x20Permanently\
+SF:r\nLocation:\x20https:///nice%20ports%2C/Trinity\.txt\.bak\r\nContent-L
+SF:ength:\x200\r\nConnection:\x20close\r\nDate:\x20Sun,\x2010\x20Dec\x2020
+SF:23\x2015:27:14\x20GMT\r\nServer:\x20OPNsense\r\n\r\n")%r(GenericLines,1
+SF:ED,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\
+SF:nContent-Length:\x20345\r\nConnection:\x20close\r\nDate:\x20Sun,\x2010\
+SF:x20Dec\x202023\x2015:27:15\x20GMT\r\nServer:\x20OPNsense\r\n\r\n<\?xml\
+SF:x20version=\"1\.0\"\x20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x2
+SF:0PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml
+SF:1-transitional\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml
+SF:\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\x20<head>\n\x20\x20<title>400\x
+SF:20Bad\x20Request</title>\n\x20</head>\n\x20<body>\n\x20\x20<h1>400\x20B
+SF:ad\x20Request</h1>\n\x20</body>\n</html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=12/10%Time=6575D8D4%P=x86_64-pc-linux
+SF:-gnu%r(GetRequest,8CB,"HTTP/1\.0\x20200\x20OK\r\nSet-Cookie:\x20PHPSESS
+SF:ID=ebf8b275f3427433656995eed81ad958;\x20path=/;\x20secure;\x20HttpOnly\
+SF:r\nSet-Cookie:\x20PHPSESSID=ebf8b275f3427433656995eed81ad958;\x20path=/
+SF:;\x20secure;\x20HttpOnly\r\nExpires:\x20Thu,\x2019\x20Nov\x201981\x2008
+SF::52:00\x20GMT\r\nCache-Control:\x20no-store,\x20no-cache,\x20must-reval
+SF:idate\r\nPragma:\x20no-cache\r\nContent-Security-Policy:\x20default-src
+SF:\x20'self';\x20script-src\x20'self'\x20'unsafe-inline'\x20'unsafe-eval'
+SF:;\x20style-src\x20'self'\x20'unsafe-inline'\x20'unsafe-eval';\r\nX-Fram
+SF:e-Options:\x20SAMEORIGIN\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS
+SF:-Protection:\x201;\x20mode=block\r\nReferrer-Policy:\x20same-origin\r\n
+SF:Content-type:\x20text/html;\x20charset=UTF-8\r\nStrict-Transport-Securi
+SF:ty:\x20max-age=31536000\r\nContent-Length:\x201509\r\nConnection:\x20cl
+SF:ose\r\nDate:\x20Sun,\x2010\x20Dec\x202023\x2015:27:15\x20GMT\r\nServer:
+SF:\x20OPNsense\r\n\r\n<!doctype\x20html>\n<html\x20lang=\"en\"\x20class=\
+SF:"no-js\">\n\x20\x20<head>\n\n\x20\x20\x20\x20<meta\x20charset=\"UTF-8\"
+SF:\x20/>\n\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20cont
+SF:ent=\"IE=edge\">\n\n\x20\x20\x20\x20<meta\x20nam")%r(HTTPOptions,413,"H
+SF:TTP/1\.0\x20403\x20Forbidden\r\nSet-Cookie:\x20PHPSESSID=b9779f3bea6de3
+SF:e9fb7b5a2512ff82a7;\x20path=/;\x20secure;\x20HttpOnly\r\nSet-Cookie:\x2
+SF:0PHPSESSID=b9779f3bea6de3e9fb7b5a2512ff82a7;\x20path=/;\x20secure;\x20H
+SF:ttpOnly\r\nExpires:\x20Thu,\x2019\x20Nov\x201981\x2008:52:00\x20GMT\r\n
+SF:Cache-Control:\x20no-store,\x20no-cache,\x20must-revalidate\r\nPragma:\
+SF:x20no-cache\r\nContent-type:\x20text/html;\x20charset=UTF-8\r\nStrict-T
+SF:ransport-Security:\x20max-age=31536000\r\nContent-Length:\x20563\r\nCon
+SF:nection:\x20close\r\nDate:\x20Sun,\x2010\x20Dec\x202023\x2015:27:20\x20
+SF:GMT\r\nServer:\x20OPNsense\r\n\r\n<html><head><title>CSRF\x20check\x20f
+SF:ailed</title>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<script>
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\$\(\x20docum
+SF:ent\x20\)\.ready\(function\(\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\$\.ajaxSetup\({\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'beforeSend':\
+SF:x20function\(xhr\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xhr\.setRequestHeader\(\"X-CS
+SF:RFToken\",\x20\"S0ErZlYyNkcwMmp5SVNmOWRUcHl4Zz09\"\x20\);\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\);\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\);\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20</script>\n\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20</head>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20");
+Service Info: OS: FreeBSD; CPE: cpe:/o:freebsd:freebsd
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (1 host up) scanned in 190.31 seconds
 ```
