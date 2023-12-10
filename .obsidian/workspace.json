@@ -29,9 +29,31 @@
                 "staged": false
               }
             }
+          },
+          {
+            "id": "7439a65f1b58b307",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "03 - Gobuster/10.0.68.105.md",
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "e3c6d5bc802dd822",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "03 - Gobuster/10.0.68.105.md",
+                "staged": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -179,11 +201,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d274ba5bc839ce2",
+  "active": "e3c6d5bc802dd822",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "03 - Gobuster/10.0.68.105.md",
     "98 - Anhänge/Gobuster dirb.md",
-    "conflict-files-obsidian-git.md",
     "02 - Hosts/10.0.68.105 - Green dragon.md",
     "98 - Anhänge/Passwordlist.md",
     "98 - Anhänge",
