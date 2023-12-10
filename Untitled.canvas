@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"eddbb9c1c8be738d","x":-189,"y":-414,"width":400,"height":400,"type":"file","file":"02 - Hosts/10.0.68.102 - Nextcloud.md"},
+		{"id":"9157e4a9757059d4","x":-781,"y":-371,"width":400,"height":400,"type":"file","file":"02 - Hosts/10.0.68.105 - Green dragon.md"}
+	],
+	"edges":[
+		{"id":"9dfd49e5e560a649","fromNode":"eddbb9c1c8be738d","fromSide":"top","toNode":"9157e4a9757059d4","toSide":"top"}
+	]
+}
