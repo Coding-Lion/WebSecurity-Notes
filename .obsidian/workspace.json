@@ -11,22 +11,33 @@
             "id": "662b9df4c29739ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "98 - Anhänge/Passwordlist.md",
-                "mode": "source",
-                "source": false
+                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
+                "staged": false
               }
             }
           },
           {
-            "id": "9d274ba5bc839ce2",
+            "id": "6aa88ea5a0e55c34",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": ".obsidian/app.json",
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "05dd77ca72057912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -166,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 694.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,36 +190,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d274ba5bc839ce2",
+  "active": "6aa88ea5a0e55c34",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "03 - Gobuster/10.0.68.105.md",
+    "02 - Hosts/10.0.68.105 - Green dragon.md",
+    "03 - Gobuster/10.0.68.108.md",
     "98 - Anhänge/Passwordlist.md",
     "98 - Anhänge/Gobuster dirb.md",
-    "02 - Hosts/10.0.68.105 - Green dragon.md",
     "98 - Anhänge",
+    "conflict-files-obsidian-git.md",
     "Pasted image 20231210171600.png",
     "Pasted image 20231210171514.png",
     "Pasted image 20231210165948.png",
-    "Untitled.canvas",
-    "2023-12-10.md",
-    "03 - Gobuster/10.0.68.108.md",
-    "03 - Gobuster/10.0.68.105.md",
     "01_1 Network Scan Extended.md",
     "01 - Network Scan.md",
-    "02 - Hosts/10.0.68.108 - Apache default page.md",
     "02 - Hosts/10.0.68.110 - DNS.md",
-    "99 - Images/Pasted image 20231108091729.png",
-    "99 - Images/Pasted image 20231108091617.png",
-    "02 - Hosts/10.0.68.102 - Nextcloud.md",
-    "02 - Hosts/10.0.68.101 - Blog page.md",
     "02 - Hosts/10.0.68.100 - Magneto Error Page.md",
-    "02 - Hosts/10.0.68.54 - DWA.md",
+    "02 - Hosts/10.0.68.107 - Nothing here.md",
+    "02 - Hosts/10.0.68.122 - Drupal Blog.md",
     "Utitled.md",
     "03 - Gobuster",
-    "02 - Hosts/10.0.68.122 - Drupal Blog.md",
+    "Untitled.canvas",
     "02 - Hosts/10.0.68.106 - Auctions.md",
-    "02 - Hosts/10.0.68.107 - Nothing here.md",
+    "02 - Hosts/10.0.68.108 - Apache default page.md",
+    "02 - Hosts/10.0.68.54 - DWA.md",
+    "02 - Hosts/10.0.68.102 - Nextcloud.md",
+    "02 - Hosts/10.0.68.101 - Blog page.md",
     "Unbenannt.canvas",
+    "99 - Images/Pasted image 20231108091729.png",
     "LICENSE",
     "testad.md",
     "2023-11-08.md",
@@ -217,6 +226,7 @@
     "99 - Images/Pasted image 20231108092237.png",
     "99 - Images/Pasted image 20231108092204.png",
     "99 - Images/Pasted image 20231108092122.png",
+    "99 - Images/Pasted image 20231108091849.png",
     "99 - Images",
     "02 - Hosts"
   ]
