@@ -11,10 +11,11 @@
             "id": "662b9df4c29739ca",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02 - Hosts/10.0.68.105 - Green dragon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "02 - Hosts/10.0.68.105 - Green dragon.md"
+              }
             }
           },
           {
@@ -168,6 +173,7 @@
   },
   "active": "662b9df4c29739ca",
   "lastOpenFiles": [
+    "Pasted image 20231210165948.png",
     "02 - Hosts/10.0.68.105 - Green dragon.md",
     "Untitled.canvas",
     "2023-12-10.md",
