@@ -14,11 +14,23 @@
               "type": "diff-view",
               "state": {
                 "file": ".obsidian/workspace.json",
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "666e1f2fdcb19b82",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "staged": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,8 +178,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "662b9df4c29739ca",
+  "active": "666e1f2fdcb19b82",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "03 - Gobuster/10.0.68.108.md",
     "03 - Gobuster/10.0.68.105.md",
     "01_1 Network Scan Extended.md",
